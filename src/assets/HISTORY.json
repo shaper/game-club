@@ -248,5 +248,10 @@
       "title": "Video Game Club 47.0",
       "games": ["Dredge", "The Gostak"],
       "alternate_side_games": ["Wall World", "Storyteller", "Citizen Sleeper: Episodes"]
+    },
+    {
+      "date": "2023-06-25",
+      "title": "Video Game Club 48.0",
+      "games": ["Tchia", "Citizen Sleeper Flux, Refuge, and Purge Free DLC"]
     }
 ]
