@@ -6,6 +6,7 @@ const props = defineProps({
   games: Array,
   alternate_side_games: Array
 })
+import { gameList } from '../assets/history'
 </script>
 
 <template>
@@ -19,12 +20,12 @@ const props = defineProps({
     </div>
       <h3>{{ title }}</h3>
       <li v-for="game in games">
-        {{ game }}
+        {{ gameList[game].name }}
       </li>
       <div v-if="alternate_side_games">
         Alternate side games:
         <li v-if="alternate_side_games" v-for="game in alternate_side_games">
-          {{ game }}
+          {{ gameList[game].name }}
         </li>
       </div>
     </div>
