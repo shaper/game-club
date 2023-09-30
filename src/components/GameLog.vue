@@ -1,6 +1,6 @@
 <script setup>
 import GameEntry from './GameEntry.vue'
-import meetings from '../assets/HISTORY.json'
+import { meetings } from '../assets/history'
 </script>
 
 <template>
