@@ -1,4 +1,12 @@
-[
+type Meeting = {
+  date: string;
+  title: string;
+  location?: string;
+  games: string[];
+  alternate_side_games?: string[];
+}
+
+export const meetings: Meeting[] = [
     {
         "date": "2018-03-30",
         "title": "Video Game Club 1.0",
@@ -254,4 +262,4 @@
       "title": "Video Game Club 48.0",
       "games": ["Tchia", "Citizen Sleeper Flux, Refuge, and Purge Free DLC"]
     }
-]
+];
