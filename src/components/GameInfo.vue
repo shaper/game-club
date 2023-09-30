@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const props = defineProps({
   name: String,
   url: String,
@@ -6,26 +6,26 @@ const props = defineProps({
   playtime: Number,
 });
 
-// TODO: icons would be better than just word links
+const roundPlaytime = (time: number): number => {
+  return Math.round(time * 10) / 10;
+};
 </script>
 
 <template>
-  <li>
-    <span>{{ name }}</span>
+  <div>
     <span v-if="url">
-      <a :href="url">web</a>
+      <a :href="url">{{ name }}</a>
     </span>
-    <span v-if="steamAppId">
-      <a :href="`https://store.steampowered.com/app/${steamAppId}/`">steam</a>
+    <span v-else>
+      <span>{{ name }}</span>
     </span>
     <span v-if="playtime">
-      ({{ Math.floor(playtime * 10) / 10 }} hours)
+        ({{ roundPlaytime(playtime) }} hours)
     </span>
-  </li>
+    <div v-if="steamAppId">
+      <a :href="`https://store.steampowered.com/app/${steamAppId}/`">
+        <img :src="`https://steamcdn-a.akamaihd.net/steam/apps/${steamAppId}/header.jpg`" />
+      </a>
+    </div>
+  </div>
 </template>
-
-<style scoped>
-span {
-  margin-right: 4px;
-}
-</style>
