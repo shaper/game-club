@@ -24,14 +24,16 @@ const props = defineProps({
         </span>
     </div>
       <h3>{{ title }}</h3>
-      <div v-for="game in games">
-        <GameInfo v-bind="gameList[game]" />
-      </div>
-      <div v-if="alternate_side_games">
-        Alternate side games:
-        <li v-if="alternate_side_games" v-for="game in alternate_side_games">
-          {{ gameList[game].name }}
-        </li>
+      <div class="entry-container">
+        <div v-for="game in games">
+          <GameInfo v-bind="gameList[game]" />
+        </div>
+        <div v-if="alternate_side_games">
+          Alternate side games:
+          <li v-if="alternate_side_games" v-for="game in alternate_side_games">
+            {{ gameList[game].name }}
+          </li>
+        </div>
       </div>
     </div>
   </div>
@@ -41,6 +43,11 @@ const props = defineProps({
 .when-and-where {
   color: #808080;
   font-size: 70%;
+}
+.entry-container {
+  margin-left: 10px;
+  border-left: 1px solid black;
+  padding-left: 20px;
 }
 .item {
   margin-top: 2rem;
