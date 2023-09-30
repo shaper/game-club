@@ -1,6 +1,8 @@
-type Game = {
+export type Game = {
   name: string;
-  // TODO: steam link, playtime, picture
+  url?: string;
+  steamAppId?: string;
+  playtime?: number;
 }
 
 export const gameList = {
@@ -213,24 +215,36 @@ export const gameList = {
   },
   planet_of_lana: {
     name: "Planet of Lana",
+    steamAppId: '1608230',
+    playtime: 4.5,
   },
   dordogne: {
     name: "Dordogne",
+    steamAppId: '1272840',
+    playtime: 3.5,
   },
   viewfinder: {
     name: "Viewfinder",
+    url: "https://thunderfulgames.com/games/viewfinder/",
+    steamAppId: '1382070',
+    playtime: 4.5,
   },
   desta: {
     name: "Desta",
+    url: "https://www.destagame.com/",
+    steamAppId: '2009650',
+    playtime: 3,
   },
   the_cosmic_wheel_sisterhood: {
     name: "The Cosmic Wheel Sisterhood",
+    steamAppId: '1340480',
+    playtime: 8,
   },
 } as const satisfies { [key: string]: Game };
 
-type GameKey = keyof typeof gameList;
+export type GameKey = keyof typeof gameList;
 
-type Meeting = {
+export type Meeting = {
   date: string;
   title: string;
   location?: string;

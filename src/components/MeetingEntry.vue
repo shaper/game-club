@@ -1,4 +1,10 @@
 <script setup>
+import { gameList } from '../assets/history'
+import GameInfo from './GameInfo.vue'
+
+// FIXME: get this from Meeting type directly
+// See: https://github.com/vuejs/core/issues/4294
+// See: https://github.com/wheatjs/vite-plugin-vue-type-imports
 const props = defineProps({
   title: String,
   date: String,
@@ -6,7 +12,6 @@ const props = defineProps({
   games: Array,
   alternate_side_games: Array
 })
-import { gameList } from '../assets/history'
 </script>
 
 <template>
@@ -19,9 +24,9 @@ import { gameList } from '../assets/history'
         </span>
     </div>
       <h3>{{ title }}</h3>
-      <li v-for="game in games">
-        {{ gameList[game].name }}
-      </li>
+      <div v-for="game in games">
+        <GameInfo v-bind="gameList[game]" />
+      </div>
       <div v-if="alternate_side_games">
         Alternate side games:
         <li v-if="alternate_side_games" v-for="game in alternate_side_games">
