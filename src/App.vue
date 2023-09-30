@@ -1,9 +1,9 @@
 <script setup>
-import GameLog from './components/GameLog.vue'
+import MeetingLog from './components/MeetingLog.vue'
 </script>
 
 <template>
   <main>
-    <GameLog />
+    <MeetingLog />
   </main>
 </template>
