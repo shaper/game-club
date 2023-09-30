@@ -261,5 +261,20 @@ export const meetings: Meeting[] = [
       "date": "2023-06-25",
       "title": "Video Game Club 48.0",
       "games": ["Tchia", "Citizen Sleeper Flux, Refuge, and Purge Free DLC"]
+    },
+    {
+      "date": "2023-07-23",
+      "title": "Video Game Club 49.0",
+      "games": ["Planet of Lana", "Dordogne"]
+    },
+    {
+      "date": "2023-09-03",
+      "title": "Video Game Club 50.0",
+      "games": ["Viewfinder", "Desta"]
+    },
+    {
+      "date": "2023-10-01",
+      "title": "Video Game Club 51.0",
+      "games": ["The Cosmic Wheel Sisterhood"]
     }
 ];
