@@ -8,210 +8,310 @@ export type Game = {
 export const gameList = {
   night_in_the_woods: {
     name: "Night in the Woods",
+    steamAppId: '481510',
   },
   kingdom_new_lands: {
     name: "Kingdom: New Lands",
+    steamAppId: '496300',
   },
   moonlighter: {
     name: "Moonlighter",
+    steamAppId: '606150',
   },
   return_of_the_obra_dinn: {
     name: "Return of the Obra Dinn",
+    steamAppId: '653530',
   },
   gris: {
     name: "Gris",
+    steamAppId: '683320',
   },
   aviary_attorney: {
     name: "Aviary Attorney",
+    steamAppId: '384630',
   },
   hypnospace_outlaw: {
     name: "Hypnospace Outlaw",
+    steamAppId: '844590',
   },
   transistor: {
     name: "Transistor",
+    steamAppId: '237930',
   },
   streets_of_rogue: {
     name: "Streets of Rogue",
+    steamAppId: '512900',
   },
   eliza: {
     name: "Eliza",
+    steamAppId: '716500',
   },
   disco_elysium: {
     name: "Disco Elysium",
+    steamAppId: '632470',
   },
   pokemon_sword_shield: {
     name: "Pokemon Sword/Shield",
+    url: 'https://swordshield.pokemon.com/en-us/,'
   },
   choice_of_robots: {
     name: "Choice of Robots",
+    steamAppId: '339350',
   },
   life_is_strange: {
     name: "Life Is Strange",
+    steamAppId: '1265920',
   },
   a_short_hike: {
     name: "A Short Hike",
+    steamAppId: '1055540',
   },
   the_hex: {
     name: "The Hex",
+    steamAppId: '510420',
   },
   nineteen_eighty_x: {
     name: "198X",
+    steamAppId: '1086010',
   },
   kentucky_route_zero: {
     name: "Kentucky Route Zero",
+    steamAppId: '231200',
   },
   beglitched: {
     name: "Beglitched",
+    steamAppId: '461220',
   },
   a_new_life: {
     name: "A New Life",
+    steamAppId: '1297160',
   },
   strawberry_cubes: {
     name: "Strawberry Cubes",
+    url: 'https://lorenschmidt.itch.io/strawberrycubes,'
   },
   one_shot: {
     name: "One Shot",
+    steamAppId: '420530',
   },
   quadrilateral_cowboy: {
     name: "Quadrilateral Cowboy",
+    steamAppId: '240440',
   },
   the_outer_wilds: {
     name: "The Outer Wilds",
+    steamAppId: '753640',
   },
   paradise_killer: {
     name: "Paradise Killer",
+    steamAppId: '1160220',
   },
   townscaper: {
     name: "Townscaper",
+    steamAppId: '1291340',
   },
   what_remains_of_edith_finch: {
     name: "What Remains of Edith Finch",
+    steamAppId: '501300',
   },
   the_last_campfire: {
     name: "The Last Campfire",
+    steamAppId: '990630',
   },
   hades: {
     name: "Hades",
+    steamAppId: '1145360',
   },
   signs_of_the_sojourner: {
     name: "Signs of the Sojourner",
+    steamAppId: '1058690',
   },
   wide_ocean_big_jacket: {
     name: "Wide Ocean Big Jacket",
+    steamAppId: '1198040',
   },
   omori: {
     name: "Omori",
+    steamAppId: '1150690',
+    playtime: 30,
   },
   if_found: {
     name: "If Found...",
+    steamAppId: '1041920',
   },
   later_alligator: {
     name: "Later Alligator",
+    steamAppId: '966320',
+    playtime: 5,
   },
   call_of_the_sea: {
     name: "Call of the Sea",
+    steamAppId: '1042490',
+    playtime: 5,
   },
   cloudpunk: {
     name: "Cloudpunk",
+    steamAppId: '746850',
   },
   ynglet: {
     name: "Ynglet",
+    url: 'https://www.ynglet.com/',
+    steamAppId: '1015920',
+    playtime: 1.5,
   },
   astalon: {
     name: "Astalon",
+    url: 'https://astalon.dangenentertainment.com/',
+    steamAppId: '1046400',
   },
   chicory: {
     name: "Chicory",
+    url: 'https://chicorygame.com/',
+    steamAppId: '1123450',
+    playtime: 20,
   },
   umurangi_generation: {
     name: "Umurangi Generation",
+    steamAppId: '1223500',
   },
   psychonauts_2: {
     name: "Psychonauts 2",
+    steamAppId: '607080',
   },
   sable: {
     name: "Sable",
+    steamAppId: '757310',
   },
   inscryption: {
     name: "Inscryption",
+    steamAppId: '1092790',
+    playtime: 11,
   },
   unpacking: {
     name: "Unpacking",
+    steamAppId: '1135690',
+    playtime: 5,
   },
   sunshine_heavy_industries: {
-    name: "Sunshine Heavy Industries"
+    name: "Sunshine Heavy Industries",
+    steamAppId: '1542810',
   },
   loop_hero: {
     name: "Loop Hero",
+    steamAppId: '1282730',
+    playtime: 40,
   },
   life_is_strange_true_colors: {
     name: "Life Is Strange: True Colors",
+    steamAppId: '936790',
+    playtime: 12,
   },
   perfect_tides: {
     name: "Perfect Tides",
+    url: 'https://perfect-tides.com/',
+    steamAppId: '1172800',
   },
   tunic: {
     name: "TUNIC",
+    steamAppId: '553420',
+    playtime: 15,
   },
   citizen_sleeper: {
     name: "Citizen Sleeper",
+    steamAppId: '1578650',
+    playtime: 7,
   },
   norco: {
     name: "NORCO",
+    url: 'https://norcogame.com/',
+    steamAppId: '1221250',
+    playtime: 10,
+  },
+  fishing_vacation: {
+    name: "Fishing Vacation",
+    steamAppId: '1918300',
   },
   stray: {
     name: "Stray",
+    url: 'https://stray.game/',
+    steamAppId: '1332010',
   },
   the_pathless: {
     name: "The Pathless",
+    steamAppId: '1492680',
+    playtime: 10,
   },
   last_call_bbs: {
     name: "Last Call BBS",
+    steamAppId: '1511780',
+    playtime: 40,
   },
   immortality: {
     name: "Immortality",
+    steamAppId: '1350200',
+    playtime: 6,
   },
   potionomics: {
     name: "Potionomics",
+    steamAppId: '1874490',
+    playtime: 20,
   },
   return_to_monkey_island: {
-    name: "Return to Monkey Island"
+    name: "Return to Monkey Island",
+    url: 'https://returntomonkeyisland.com/',
+    steamAppId: '2060130',
   },
   signalis: {
     name: "Signalis",
+    url: 'https://rose-engine.org/signalis/',
+    steamAppId: '1262350',
   },
   melatonin: {
     name: "Melatonin",
+    steamAppId: '1585220',
   },
   pentiment: {
     name: "Pentiment",
+    url: 'https://pentiment.obsidian.net/',
+    steamAppId: '1205520',
   },
   season_a_letter_to_the_future: {
     name: "Season: A letter to the future",
+    steamAppId: '695330',
+    playtime: 8,
   },
   dredge: {
     name: "Dredge",
+    steamAppId: '1562430',
   },
   the_gostak: {
     name: "The Gostak",
+    url: 'https://iplayif.com/?story=https%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Fzcode%2Fgostak.z5',
   },
   wall_world: {
     name: "Wall World",
+    steamAppId: '2187290',
   },
   storyteller: {
     name: "Storyteller",
+    steamAppId: '1624540',
   },
   citizen_sleeper_flux: {
     name: "Citizen Sleeper: Flux DLC",
+    steamAppId: '1578650',
   },
   citizen_sleeper_refuge: {
     name: "Citizen Sleeper: Refuge DLC",
+    steamAppId: '1578650',
   },
   citizen_sleeper_purge: {
     name: "Citizen Sleeper: Purge DLC",
+    steamAppId: '1578650',
   },
   tchia: {
     name: "Tchia",
+    url: 'https://www.awaceb.com/tchia',
+    steamAppId: '1496590',
   },
   planet_of_lana: {
     name: "Planet of Lana",
@@ -456,7 +556,7 @@ export const meetings: Meeting[] = [
     {
       "date": "2022-07-17",
       "title": "Video Game Club 38.0",
-      "games": ["norco"]
+      "games": ["norco", "fishing_vacation"]
     },
     {
       "date": "2022-08-21",
