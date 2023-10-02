@@ -52,7 +52,7 @@ export const gameList = {
   },
   pokemon_sword_shield: {
     name: "Pokemon Sword/Shield",
-    url: 'https://swordshield.pokemon.com/en-us/,'
+    url: 'https://swordshield.pokemon.com/en-us/'
   },
   choice_of_robots: {
     name: "Choice of Robots",
