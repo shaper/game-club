@@ -340,6 +340,16 @@ export const gameList = {
     steamAppId: '1340480',
     playtime: 8,
   },
+  tartarus_key: {
+    name: "The Tartarus Key",
+    steamAppId: '1431850',
+    playtime: 4,
+  },
+  gordy_monster_moon: {
+    name: "Gordy and the Monster Moon",
+    steamAppId: '642020',
+    playtime: 2,
+  },
 } as const satisfies { [key: string]: Game };
 
 export type GameKey = keyof typeof gameList;
@@ -368,7 +378,7 @@ export const meetings: Meeting[] = [
     {
       "date": "2018-11-16",
       "title": "Video Game Club 3.0",
-      "location": "Walter\"s",
+      "location": "Walter's",
       "games": ["moonlighter"]
     },
     {
@@ -624,5 +634,10 @@ export const meetings: Meeting[] = [
       "date": "2023-10-01",
       "title": "Video Game Club 51.0",
       "games": ["the_cosmic_wheel_sisterhood"]
+    },
+    {
+      "date": "2023-10-29",
+      "title": "Video Game Club 52.0",
+      "games": ["tartarus_key", "gordy_monster_moon"]
     }
 ];
