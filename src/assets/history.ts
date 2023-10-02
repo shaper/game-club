@@ -378,7 +378,7 @@ export const meetings: Meeting[] = [
     {
       "date": "2018-11-16",
       "title": "Video Game Club 3.0",
-      "location": "Walter's",
+      "location": "Walter\"s",
       "games": ["moonlighter"]
     },
     {
