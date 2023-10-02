@@ -349,7 +349,6 @@ export type Meeting = {
   title: string;
   location?: string;
   games: GameKey[];
-  alternate_side_games?: GameKey[];
 }
 
 export const meetings: Meeting[] = [
@@ -368,7 +367,7 @@ export const meetings: Meeting[] = [
     {
       "date": "2018-11-16",
       "title": "Video Game Club 3.0",
-      "location": "Walter\"s",
+      "location": "Walter's",
       "games": ["moonlighter"]
     },
     {
@@ -602,8 +601,6 @@ export const meetings: Meeting[] = [
       "date": "2023-05-14",
       "title": "Video Game Club 47.0",
       "games": ["dredge", "the_gostak"],
-      // TODO: were these REALLY side games <_<
-      "alternate_side_games": ["wall_world", "storyteller", "citizen_sleeper_flux", "citizen_sleeper_refuge", "citizen_sleeper_purge"]
     },
     {
       "date": "2023-06-25",
