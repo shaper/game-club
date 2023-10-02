@@ -9,8 +9,7 @@ const props = defineProps({
   title: String,
   date: String,
   location: String,
-  games: Array,
-  alternate_side_games: Array
+  games: Array
 })
 </script>
 
@@ -27,12 +26,6 @@ const props = defineProps({
       <div class="entry-container">
         <div v-for="game in games">
           <GameInfo v-bind="gameList[game]" />
-        </div>
-        <div v-if="alternate_side_games">
-          Alternate side games:
-          <li v-if="alternate_side_games" v-for="game in alternate_side_games">
-            {{ gameList[game].name }}
-          </li>
         </div>
       </div>
     </div>
