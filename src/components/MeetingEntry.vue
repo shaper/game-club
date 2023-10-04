@@ -38,6 +38,8 @@ const props = defineProps({
   font-size: 70%;
 }
 .entry-container {
+  display: flex;
+  gap: 20px;
   margin-left: 10px;
   border-left: 1px solid black;
   padding-left: 20px;

@@ -2,6 +2,7 @@ export type Game = {
   name: string;
   url?: string;
   steamAppId?: string;
+  coverArt?: string;
   playtime?: number;
 }
 
@@ -64,11 +65,13 @@ export const gameList = {
   pokemon_sword_shield: {
     name: "Pokemon Sword/Shield",
     url: 'https://swordshield.pokemon.com/en-us/',
+    coverArt: "https://images.ctfassets.net/pkeegl0voupm/4DkOZNObiim5zifjEdhdj2/c09f36f9ce5f4868ee3d0541f858817c/heroimage_square_pokemon-swsh.png",
     playtime: 25,
   },
   choice_of_robots: {
     name: "Choice of Robots",
     steamAppId: '339350',
+    coverArt: "https://m.media-amazon.com/images/I/91pzi4wEAFL.png",
     playtime: 4,
   },
   life_is_strange: {
@@ -89,6 +92,7 @@ export const gameList = {
   nineteen_eighty_x: {
     name: "198X",
     steamAppId: '1086010',
+    coverArt: "https://image.api.playstation.com/vulcan/img/cfn/11307fkrpye5vBWv_z79-nUCiGMs3MENh7EzwsPyyYL8lsO8uZu5JlkSCEHFIhbEaoMVKPGl5jMZ2wp_0AA9V3Y-zw8HXRny.png",
     playtime: 2,
   },
   kentucky_route_zero: {
@@ -99,6 +103,7 @@ export const gameList = {
   beglitched: {
     name: "Beglitched",
     steamAppId: '461220',
+    coverArt: "https://static-cdn.jtvnw.net/ttv-boxart/493971_IGDB-272x380.jpg",
     playtime: 6,
   },
   a_new_life: {
