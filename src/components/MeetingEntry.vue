@@ -9,8 +9,7 @@ const props = defineProps({
   title: String,
   date: String,
   location: String,
-  games: Array,
-  alternate_side_games: Array
+  games: Array
 })
 </script>
 

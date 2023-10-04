@@ -10,86 +10,106 @@ export const gameList = {
   night_in_the_woods: {
     name: "Night in the Woods",
     steamAppId: '481510',
+    playtime: 9,
   },
   kingdom_new_lands: {
     name: "Kingdom: New Lands",
     steamAppId: '496300',
+    playtime: 9.5,
   },
   moonlighter: {
     name: "Moonlighter",
     steamAppId: '606150',
+    playtime: 13.5,
   },
   return_of_the_obra_dinn: {
     name: "Return of the Obra Dinn",
     steamAppId: '653530',
+    playtime: 8,
   },
   gris: {
     name: "Gris",
     steamAppId: '683320',
+    playtime: 5,
   },
   aviary_attorney: {
     name: "Aviary Attorney",
     steamAppId: '384630',
+    playtime: 5,
   },
   hypnospace_outlaw: {
     name: "Hypnospace Outlaw",
     steamAppId: '844590',
+    playtime: 8,
   },
   transistor: {
     name: "Transistor",
     steamAppId: '237930',
+    playtime: 8,
   },
   streets_of_rogue: {
     name: "Streets of Rogue",
     steamAppId: '512900',
+    playtime: 10,
   },
   eliza: {
     name: "Eliza",
     steamAppId: '716500',
+    playtime: 6,
   },
   disco_elysium: {
     name: "Disco Elysium",
     steamAppId: '632470',
+    playtime: 30,
   },
   pokemon_sword_shield: {
     name: "Pokemon Sword/Shield",
     url: 'https://swordshield.pokemon.com/en-us/',
     coverArt: "https://images.ctfassets.net/pkeegl0voupm/4DkOZNObiim5zifjEdhdj2/c09f36f9ce5f4868ee3d0541f858817c/heroimage_square_pokemon-swsh.png",
+    playtime: 25,
   },
   choice_of_robots: {
     name: "Choice of Robots",
     steamAppId: '339350',
     coverArt: "https://m.media-amazon.com/images/I/91pzi4wEAFL.png",
+    playtime: 4,
   },
   life_is_strange: {
     name: "Life Is Strange",
     steamAppId: '1265920',
+    playtime: 15,
   },
   a_short_hike: {
     name: "A Short Hike",
     steamAppId: '1055540',
+    playtime: 2.5,
   },
   the_hex: {
     name: "The Hex",
     steamAppId: '510420',
+    playtime: 6,
   },
   nineteen_eighty_x: {
     name: "198X",
     steamAppId: '1086010',
     coverArt: "https://image.api.playstation.com/vulcan/img/cfn/11307fkrpye5vBWv_z79-nUCiGMs3MENh7EzwsPyyYL8lsO8uZu5JlkSCEHFIhbEaoMVKPGl5jMZ2wp_0AA9V3Y-zw8HXRny.png",
+    playtime: 2,
   },
   kentucky_route_zero: {
     name: "Kentucky Route Zero",
     steamAppId: '231200',
+    playtime: 12,
   },
   beglitched: {
     name: "Beglitched",
     steamAppId: '461220',
     coverArt: "https://static-cdn.jtvnw.net/ttv-boxart/493971_IGDB-272x380.jpg",
+    playtime: 6,
   },
   a_new_life: {
     name: "A New Life",
     steamAppId: '1297160',
+    playtime: 1,
   },
   strawberry_cubes: {
     name: "Strawberry Cubes",
@@ -98,18 +118,22 @@ export const gameList = {
   one_shot: {
     name: "One Shot",
     steamAppId: '420530',
+    playtime: 5,
   },
   quadrilateral_cowboy: {
     name: "Quadrilateral Cowboy",
     steamAppId: '240440',
+    playtime: 7,
   },
-  the_outer_wilds: {
-    name: "The Outer Wilds",
+  outer_wilds: {
+    name: "Outer Wilds",
     steamAppId: '753640',
+    playtime: 18,
   },
   paradise_killer: {
     name: "Paradise Killer",
     steamAppId: '1160220',
+    playtime: 12,
   },
   townscaper: {
     name: "Townscaper",
@@ -118,10 +142,12 @@ export const gameList = {
   what_remains_of_edith_finch: {
     name: "What Remains of Edith Finch",
     steamAppId: '501300',
+    playtime: 2,
   },
   the_last_campfire: {
     name: "The Last Campfire",
     steamAppId: '990630',
+    playtime: 6,
   },
   hades: {
     name: "Hades",
@@ -130,10 +156,12 @@ export const gameList = {
   signs_of_the_sojourner: {
     name: "Signs of the Sojourner",
     steamAppId: '1058690',
+    playtime: 5,
   },
   wide_ocean_big_jacket: {
     name: "Wide Ocean Big Jacket",
     steamAppId: '1198040',
+    playtime: 2,
   },
   omori: {
     name: "Omori",
@@ -143,6 +171,7 @@ export const gameList = {
   if_found: {
     name: "If Found...",
     steamAppId: '1041920',
+    playtime: 2,
   },
   later_alligator: {
     name: "Later Alligator",
@@ -157,6 +186,7 @@ export const gameList = {
   cloudpunk: {
     name: "Cloudpunk",
     steamAppId: '746850',
+    playtime: 10,
   },
   ynglet: {
     name: "Ynglet",
@@ -168,6 +198,7 @@ export const gameList = {
     name: "Astalon",
     url: 'https://astalon.dangenentertainment.com/',
     steamAppId: '1046400',
+    playtime: 14,
   },
   chicory: {
     name: "Chicory",
@@ -178,14 +209,17 @@ export const gameList = {
   umurangi_generation: {
     name: "Umurangi Generation",
     steamAppId: '1223500',
+    playtime: 3,
   },
   psychonauts_2: {
     name: "Psychonauts 2",
     steamAppId: '607080',
+    playtime: 15,
   },
   sable: {
     name: "Sable",
     steamAppId: '757310',
+    playtime: 8,
   },
   inscryption: {
     name: "Inscryption",
@@ -215,6 +249,7 @@ export const gameList = {
     name: "Perfect Tides",
     url: 'https://perfect-tides.com/',
     steamAppId: '1172800',
+    playtime: 8,
   },
   tunic: {
     name: "TUNIC",
@@ -235,11 +270,13 @@ export const gameList = {
   fishing_vacation: {
     name: "Fishing Vacation",
     steamAppId: '1918300',
+    playtime: 1,
   },
   stray: {
     name: "Stray",
     url: 'https://stray.game/',
     steamAppId: '1332010',
+    playtime: 6,
   },
   the_pathless: {
     name: "The Pathless",
@@ -265,20 +302,24 @@ export const gameList = {
     name: "Return to Monkey Island",
     url: 'https://returntomonkeyisland.com/',
     steamAppId: '2060130',
+    playtime: 12,
   },
   signalis: {
     name: "Signalis",
     url: 'https://rose-engine.org/signalis/',
     steamAppId: '1262350',
+    playtime: 10,
   },
   melatonin: {
     name: "Melatonin",
     steamAppId: '1585220',
+    playtime: 4,
   },
   pentiment: {
     name: "Pentiment",
     url: 'https://pentiment.obsidian.net/',
     steamAppId: '1205520',
+    playtime: 15,
   },
   season_a_letter_to_the_future: {
     name: "Season: A letter to the future",
@@ -288,35 +329,32 @@ export const gameList = {
   dredge: {
     name: "Dredge",
     steamAppId: '1562430',
+    playtime: 13,
   },
   the_gostak: {
     name: "The Gostak",
     url: 'https://iplayif.com/?story=https%3A%2F%2Fifarchive.org%2Fif-archive%2Fgames%2Fzcode%2Fgostak.z5',
   },
-  wall_world: {
-    name: "Wall World",
-    steamAppId: '2187290',
-  },
-  storyteller: {
-    name: "Storyteller",
-    steamAppId: '1624540',
-  },
   citizen_sleeper_flux: {
     name: "Citizen Sleeper: Flux DLC",
     steamAppId: '1578650',
+    playtime: 2,
   },
   citizen_sleeper_refuge: {
     name: "Citizen Sleeper: Refuge DLC",
     steamAppId: '1578650',
+    playtime: 2,
   },
   citizen_sleeper_purge: {
     name: "Citizen Sleeper: Purge DLC",
     steamAppId: '1578650',
+    playtime: 2,
   },
   tchia: {
     name: "Tchia",
     url: 'https://www.awaceb.com/tchia',
     steamAppId: '1496590',
+    playtime: 9,
   },
   planet_of_lana: {
     name: "Planet of Lana",
@@ -345,6 +383,16 @@ export const gameList = {
     steamAppId: '1340480',
     playtime: 8,
   },
+  tartarus_key: {
+    name: "The Tartarus Key",
+    steamAppId: '1431850',
+    playtime: 4,
+  },
+  gordy_monster_moon: {
+    name: "Gordy and the Monster Moon",
+    steamAppId: '642020',
+    playtime: 2,
+  },
 } as const satisfies { [key: string]: Game };
 
 export type GameKey = keyof typeof gameList;
@@ -354,7 +402,6 @@ export type Meeting = {
   title: string;
   location?: string;
   games: GameKey[];
-  alternate_side_games?: GameKey[];
 }
 
 export const meetings: Meeting[] = [
@@ -373,7 +420,7 @@ export const meetings: Meeting[] = [
     {
       "date": "2018-11-16",
       "title": "Video Game Club 3.0",
-      "location": "Walter\"s",
+      "location": "Walter's",
       "games": ["moonlighter"]
     },
     {
@@ -460,7 +507,7 @@ export const meetings: Meeting[] = [
     {
       "date": "2020-09-11",
       "title": "Video Game Club 18.0",
-      "games": ["the_outer_wilds"]
+      "games": ["outer_wilds"]
     },
     {
       "date": "2020-11-06",
@@ -607,8 +654,6 @@ export const meetings: Meeting[] = [
       "date": "2023-05-14",
       "title": "Video Game Club 47.0",
       "games": ["dredge", "the_gostak"],
-      // TODO: were these REALLY side games <_<
-      "alternate_side_games": ["wall_world", "storyteller", "citizen_sleeper_flux", "citizen_sleeper_refuge", "citizen_sleeper_purge"]
     },
     {
       "date": "2023-06-25",
@@ -629,5 +674,10 @@ export const meetings: Meeting[] = [
       "date": "2023-10-01",
       "title": "Video Game Club 51.0",
       "games": ["the_cosmic_wheel_sisterhood"]
+    },
+    {
+      "date": "2023-10-29",
+      "title": "Video Game Club 52.0",
+      "games": ["tartarus_key", "gordy_monster_moon"]
     }
 ];
