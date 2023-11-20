@@ -20,7 +20,7 @@ const props = defineProps({
       <h3>{{ title }}</h3>
       <div class="when-and-where">
         <span class="date">
-          {{ Intl.DateTimeFormat('default', {dateStyle: 'long'}).format(new Date(date)) }}
+          {{ Intl.DateTimeFormat('default', {dateStyle: 'long'}).format(new Date(`${date}T00:00:00`)) }}
         </span>
         <span v-if="location" class="location">
           at {{ location }}
