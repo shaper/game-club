@@ -393,6 +393,12 @@ export const gameList = {
     steamAppId: '642020',
     playtime: 2,
   },
+  chants_of_senaar: {
+    name: "Chants of Senaar",
+    url: 'https://www.rundisc.io/chants-of-sennaar/',
+    steamAppId: '1931770',
+    playtime: 9,
+  },
 } as const satisfies { [key: string]: Game };
 
 export type GameKey = keyof typeof gameList;
@@ -679,5 +685,10 @@ export const meetings: Meeting[] = [
       "date": "2023-10-29",
       "title": "Video Game Club 52.0",
       "games": ["tartarus_key", "gordy_monster_moon"]
+    },
+    {
+      "date": "2023-11-19",
+      "title": "Video Game Club 53.0",
+      "games": ["chants_of_senaar"]
     }
 ];
