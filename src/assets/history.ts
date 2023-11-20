@@ -399,6 +399,18 @@ export const gameList = {
     steamAppId: '1931770',
     playtime: 9,
   },
+  jusant: {
+    name: "Jusant",
+    url: 'https://dont-nod.com/en/games/jusant/',
+    steamAppId: '1977170',
+    playtime: 4,
+  },
+  cocoon: {
+    name: "Cocoon",
+    url: 'https://www.cocoongame.com/',
+    steamAppId: '1497440',
+    playtime: 6,
+  },
 } as const satisfies { [key: string]: Game };
 
 export type GameKey = keyof typeof gameList;
@@ -690,5 +702,10 @@ export const meetings: Meeting[] = [
       "date": "2023-11-19",
       "title": "Video Game Club 53.0",
       "games": ["chants_of_senaar"]
-    }
+    },
+    {
+      "date": "2024-01-07",
+      "title": "video Game Club 54.0",
+      "games": ["jusant", "cocoon"]
+    },
 ];
