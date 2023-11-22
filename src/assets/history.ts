@@ -705,7 +705,7 @@ export const meetings: Meeting[] = [
     },
     {
       "date": "2024-01-07",
-      "title": "video Game Club 54.0",
+      "title": "Video Game Club 54.0",
       "games": ["jusant", "cocoon"]
     },
 ];
