@@ -411,6 +411,12 @@ export const gameList = {
     steamAppId: '1497440',
     playtime: 6,
   },
+  a_highland_song: {
+    name: "A Highland Song",
+    url: 'https://www.inklestudios.com/a-highland-song/',
+    steamAppId: '1240060',
+    playtime: 6,
+  },
 } as const satisfies { [key: string]: Game };
 
 export type GameKey = keyof typeof gameList;
@@ -707,5 +713,10 @@ export const meetings: Meeting[] = [
       "date": "2024-01-07",
       "title": "Video Game Club 54.0",
       "games": ["jusant", "cocoon"]
+    },
+    {
+      "date": "2024-01-28",
+      "title": "Video Game Club 55.0",
+      "games": ["a_highland_song"]
     },
 ];
