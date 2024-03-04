@@ -417,6 +417,12 @@ export const gameList = {
     steamAppId: '1240060',
     playtime: 6,
   },
+  prince_of_persia_lost_crown: {
+    name: "Prince of Persia: Lost Crown",
+    url: 'https://www.ubisoft.com/en-us/game/prince-of-persia/the-lost-crown',
+    coverArt: "https://cdn1.epicgames.com/offer/22600f09e936468c8ecfc22b5eac7d7c/EGST_StorePortrait_1200x1600_1200x1600-54fe39c69e335bbe2c071ff53cfa0685",
+    playtime: 16,
+  },
 } as const satisfies { [key: string]: Game };
 
 export type GameKey = keyof typeof gameList;
@@ -718,5 +724,10 @@ export const meetings: Meeting[] = [
       "date": "2024-01-28",
       "title": "Video Game Club 55.0",
       "games": ["a_highland_song"]
+    },
+    {
+      "date": "2024-03-03",
+      "title": "Video Game Club 56.0",
+      "games": ["prince_of_persia_lost_crown"]
     },
 ];
