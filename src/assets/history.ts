@@ -423,6 +423,12 @@ export const gameList = {
     coverArt: "https://cdn1.epicgames.com/offer/22600f09e936468c8ecfc22b5eac7d7c/EGST_StorePortrait_1200x1600_1200x1600-54fe39c69e335bbe2c071ff53cfa0685",
     playtime: 16,
   },
+  in_stars_and_time: {
+    name: "In Stars and Time",
+    url: 'https://www.instarsandtime.com/',
+    steamAppId: '1677310',
+    playtime: 20,
+  },
 } as const satisfies { [key: string]: Game };
 
 export type GameKey = keyof typeof gameList;
@@ -729,5 +735,10 @@ export const meetings: Meeting[] = [
       "date": "2024-03-03",
       "title": "Video Game Club 56.0",
       "games": ["prince_of_persia_lost_crown"]
+    },
+    {
+      "date": "2024-04-14",
+      "title": "Video Game Club 57.0",
+      "games": ["in_stars_and_time"]
     },
 ];
