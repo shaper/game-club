@@ -429,6 +429,18 @@ export const gameList = {
     steamAppId: '1677310',
     playtime: 20,
   },
+  pepper_grinder: {
+    name: "Pepper Grinder",
+    url: 'https://www.devolverdigital.com/games/pepper-grinder',
+    steamAppId: '2076580',
+    playtime: 5,
+  },
+  venba: {
+    name: "Venba",
+    url: 'https://venbagame.com/',
+    steamAppId: '1491670',
+    playtime: 1.5,
+  },
 } as const satisfies { [key: string]: Game };
 
 export type GameKey = keyof typeof gameList;
@@ -740,5 +752,10 @@ export const meetings: Meeting[] = [
       "date": "2024-04-14",
       "title": "Video Game Club 57.0",
       "games": ["in_stars_and_time"]
+    },
+    {
+      "date": "2024-05-19",
+      "title": "Video Game Club 58.0",
+      "games": ["pepper_grinder", "venba"]
     },
 ];
