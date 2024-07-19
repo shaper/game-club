@@ -441,6 +441,24 @@ export const gameList = {
     steamAppId: '1491670',
     playtime: 1.5,
   },
+  cryptmaster: {
+    name: "Cryptmaster",
+    url: 'https://store.steampowered.com/app/1885110/Cryptmaster/',
+    steamAppId: '1885110',
+    playtime: 10,
+  },
+  slay_the_princess: {
+    name: "Slay the Princess",
+    url: 'https://store.steampowered.com/app/1989270/Slay_the_Princess/',
+    steamAppId: '1989270',
+    playtime: 5,
+  },
+  duck_detective: {
+    name: "Duck Detective: The Secret Salami",
+    url: 'https://store.steampowered.com/app/2637990/Duck_Detective_The_Secret_Salami/',
+    steamAppId: '2637990',
+    playtime: 3,
+  },
 } as const satisfies { [key: string]: Game };
 
 export type GameKey = keyof typeof gameList;
@@ -758,4 +776,14 @@ export const meetings: Meeting[] = [
       "title": "Video Game Club 58.0",
       "games": ["pepper_grinder", "venba"]
     },
+    {
+      "date": "2024-06-23",
+      "title": "Video Game Club 59.0",
+      "games": ["cryptmaster"]
+    },
+    {
+      "date": "2024-07-21",
+      "title": "Video Game Club 60.0",
+      "games": ["slay_the_princess", "duck_detective"]
+    }
 ];
