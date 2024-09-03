@@ -459,6 +459,18 @@ export const gameList = {
     steamAppId: '2637990',
     playtime: 3,
   },
+  dungeons_of_hinterberg: {
+    name: "Dungeons of Hinterberg",
+    url: 'https://store.steampowered.com/app/1983260/Dungeons_of_Hinterberg/',
+    steamAppId: '1983260',
+    playtime: 20,
+  },
+  tactical_breach_wizards: {
+    name: "Tactical Breach Wizards",
+    url: 'https://store.steampowered.com/app/1043810/Tactical_Breach_Wizards/',
+    steamAppId: '1043810',
+    playtime: 14,
+  },
 } as const satisfies { [key: string]: Game };
 
 export type GameKey = keyof typeof gameList;
@@ -785,5 +797,15 @@ export const meetings: Meeting[] = [
       "date": "2024-07-21",
       "title": "Video Game Club 60.0",
       "games": ["slay_the_princess", "duck_detective"]
+    },
+    {
+      "date": "2024-08-23",
+      "title": "Video Game Club 61.0",
+      "games": ["dungeons_of_hinterberg"]
+    },
+    {
+      "date": "2024-10-06",
+      "title": "Video Game Club 62.0",
+      "games": ["tactical_breach_wizards"]
     }
 ];
